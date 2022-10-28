@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #625cb8;
+  border-color: #625cb8;
+  border-radius: 0px;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar a.active {
+  background: #5cb8b8;
+}
+
+.navbar ul a:hover {
+  color: rgb(18, 243, 18);
+}
+
+.navbar i {
+  color: #ffe626;
+  text-shadow: none;
+}
+
+.container{
+  display:contents;
+}

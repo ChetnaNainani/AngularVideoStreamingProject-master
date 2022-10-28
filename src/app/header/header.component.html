@@ -1,0 +1,29 @@
+<div class="encabezado">
+  <div class="container"></div>
+</div>
+<nav class="navbar">
+  <div class="container">
+    <a [routerLink]="['/lista-video']" class="navbar-brand">
+      <i class="fa fa-video-camera" aria-hidden="true"></i> Video Streaming App
+    </a>
+
+    <!--<ul class="nav navbar-nav">
+      <li>
+        <a
+          [routerLink]="['/lista-video']"
+          [queryParams]="{ videoID: 230 }"
+          routerLinkActive="active"
+          >Video list</a
+        >
+      </li>
+      <li>
+        <a [routerLink]="['/video-player']" routerLinkActive="active"
+          >Video player</a
+        >
+      </li>
+    </ul>-->
+    <p-menu #menu [popup]="true" [model]="items"></p-menu>
+    <button type="button" class="p-button-help" pButton icon="pi pi-bars" label="Menú" (click)="menu.toggle($event)"></button>
+
+  </div>
+</nav>
